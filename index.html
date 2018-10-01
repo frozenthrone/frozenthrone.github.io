@@ -1,21 +1,21 @@
 
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en" class="flexgrid">
 
 <head>
 
   <meta charset="UTF-8">
-  <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
-  <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+
   <title>野猪看电视</title>
   
   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
- <link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
 
-  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-  <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/video.js/dist/video.js"></script>
+    <script src="https://unpkg.com/videojs-flash/dist/videojs-flash.js"></script>
+    <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
 
       <style>
       @charset "UTF-8";
@@ -59,13 +59,14 @@
   }
   .flexgrid .container:after {
     flex: auto;
-    margin: 0 auto;
+    margin: 0.5rem auto;
     content: "";
   }
   .flexgrid .container > * {
     width: calc( 33.3333333333% - 0.6666666667rem );
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+
   }
   .flexgrid .container > *:nth-child(1) {
     margin-left: 0;
@@ -132,8 +133,12 @@
 }
 .flexgrid .title {
   font-family: Helvetica, sans-serif;
-  font-size: 200%;
+  font-size: 300%;
   padding: 2rem 1rem;
+}
+p.twitter{
+  font-size: 150%;
+  color:blue;
 }
 .flexgrid .thing {
   color: #FEFEFE;
@@ -187,25 +192,42 @@
 
 
     </style>
+<script type="text/javascript">
+ $(document).ready(function(){
+
+$( ".thing span" ).click(function() {
+       var href = $(this).attr('myAttri');
+
+ var myPlayer = videojs('my-player');
+
+myPlayer.src('http://223.110.243.148/PLTV/4/224/3221227525/index.m3u8');
+ myPlayer.type("application/x-mpegURL");
+myPlayer.ready(function() {
+ 
+  myPlayer.play();
+myPlayer.requestFullscreen();
+});
 
 
+  });
+});
+
+</script>
 
 </head>
 
 <body translate="no" >
 
   <h1 class='title'>野猪看电视</h1>
-  <p>moonzju@twitter</p>
-  <video id="my-video" class="video-js" controls preload="auto" width="100%"  data-setup="{}">
-    <source src="MY_VIDEO.mp4" type='video/mp4'>
-    <source src="MY_VIDEO.webm" type='video/webm'>
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a web browser that
-      <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-    </p>
-  </video>
+  <p class="twitter">moonzju@twitter</p>
+<video id="my-player" width="100%" class="video-js vjs-default-skin" controls>
+ <source
+     src=""
+     type="application/x-mpegURL">
+</video>
+
 <div class='container'>
-  <div class='thing'><a href="http://223.110.243.148/PLTV/4/224/3221227525/index.m3u8">湖南卫视高清</a></div>
+  <div class='thing'><span myAttri="http://223.110.243.148/PLTV/4/224/3221227525/index.m3u8">湖南卫视高清</span></div>
    <div class='thing'><a href="http://e1.vdowowza.vip.hk1.tvb.com/tvblive/smil:mobilehd_financeintl.smil/chunklist.m3u8">TVB财经台</a></div>
     <div class='thing'><a href="http://210.201.54.102/gtlive2/tc-tvbs/chunklist_w1101125571.m3u8">TVBS</a></div>
      <div class='thing'><a href="https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8">NHK World</a></div>
@@ -228,6 +250,30 @@
 
   
 </div>
+
+<!-- <script type="text/javascript">
+ $(document).ready(function(){
+  videojs('my-player');
+  $( ".thing span" ).click(function() {
+       var href = $(this).attr('myAttri');
+ var myPlayer = videojs('my-player');
+
+myPlayer.src('http://vjs.zencdn.net/v/oceans.mp4');
+myPlayer.ready(function() {
+ 
+  myPlayer.play();
+
+});
+
+  });
+ });
+</script>
+ -->
+
+
+
+
+
 
 </body>
 
