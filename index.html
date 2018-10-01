@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
     <script src="https://unpkg.com/video.js/dist/video.js"></script>
     <script src="https://unpkg.com/videojs-flash/dist/videojs-flash.js"></script>
     <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
@@ -185,8 +186,10 @@ p.twitter{
   color:#fff;
   text-decoration: none;
 }
-#my-video{
+#my-player{
   background: #000;
+  width: 100%;
+
 }
 
 
@@ -220,7 +223,7 @@ myPlayer.requestFullscreen();
 
   <h1 class='title'>野猪看电视</h1>
   <p class="twitter">moonzju@twitter</p>
-<video id="my-player" width="100%" class="video-js vjs-default-skin" controls>
+<video id="my-player"  class="video-js vjs-default-skin" controls>
  <source
      src=""
      type="application/x-mpegURL">
