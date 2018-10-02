@@ -1,23 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en" class="flexgrid">
-
-<head>
-
-  <meta charset="UTF-8">
-
-  <title>野猪看电视</title>
-  
-  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
-    <script src="https://unpkg.com/video.js/dist/video.js"></script>
-    <script src="https://unpkg.com/videojs-flash/dist/videojs-flash.js"></script>
-    <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
-
-      <style>
+ <head> 
+  <meta charset="UTF-8" /> 
+  <title>野猪看电视</title> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" /> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet" /> 
+  <script src="https://unpkg.com/video.js/dist/video.js"></script> 
+  <script src="https://unpkg.com/videojs-flash/dist/videojs-flash.js"></script> 
+  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script> 
+  <style>
       @charset "UTF-8";
 /** 
 * Make flexbox grids super easy!
@@ -66,7 +58,6 @@
     width: calc( 33.3333333333% - 0.6666666667rem );
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-
   }
   .flexgrid .container > *:nth-child(1) {
     margin-left: 0;
@@ -104,7 +95,6 @@
     margin-left: 0;
   }
 }
-
 /* 
 * Demo Styles
 */
@@ -158,33 +148,26 @@ p.twitter{
   -moz-box-shadow: 10px 10px 5px #888888; /* 老的 Firefox */
 box-shadow: 10px 10px 5px #aaa;
 }
-
 .flexgrid .thing:nth-child(1), .flexgrid .thing:nth-child(5), .flexgrid .thing:nth-child(9), .flexgrid .thing:nth-child(13), .flexgrid .thing:nth-child(17), .flexgrid .thing:nth-child(21) {
   background: #6638f0;
-
 }
-
 .flexgrid .thing:nth-child(2), .flexgrid .thing:nth-child(6), .flexgrid .thing:nth-child(10), .flexgrid .thing:nth-child(14) , .flexgrid .thing:nth-child(18), .flexgrid .thing:nth-child(22){
   background: #236c99;
   
 }
-
 .flexgrid .thing:nth-child(3), .flexgrid .thing:nth-child(7), .flexgrid .thing:nth-child(11), .flexgrid .thing:nth-child(15) , .flexgrid .thing:nth-child(19), .flexgrid .thing:nth-child(23){
   background: #df6974;
   
 }
-
 .flexgrid .thing:nth-child(4), .flexgrid .thing:nth-child(8), .flexgrid .thing:nth-child(12), .flexgrid .thing:nth-child(16) , .flexgrid .thing:nth-child(20), .flexgrid .thing:nth-child(24){
   background: #cf3300;
   
 }
-
 .flexgrid .emoji {
   font-size: 200%;
   -webkit-transform: translateY(20%);
           transform: translateY(20%);
 }
-
 .thing a{
   color:#fff;
   text-decoration: none;
@@ -194,18 +177,12 @@ box-shadow: 10px 10px 5px #aaa;
   width: 100%;
 padding-top: 65%;
 }
-
-
-
-    </style>
-<script type="text/javascript">
+    </style> 
+  <script type="text/javascript">
  $(document).ready(function(){
-
 $( ".thing span" ).click(function() {
        var href = $(this).attr('myAttri');
-
  var player = videojs('my-player');
-
 player.src({
   src: href,
   type: 'application/x-mpegURL',
@@ -213,56 +190,86 @@ player.src({
 });
  player.requestFullscreen();
   player.play();
-
-
-
-
   });
 });
-
-</script>
-
-</head>
-
-<body translate="no" >
-
-  <h1 class='title'>野猪看电视</h1>
-  <p class="twitter"><a href="https://twitter.com/moonzju">moonzju@twitter</a></p>
-<video id="my-player"  class="video-js vjs-default-skin" controls>
- <source
-     src=""
-     type="application/x-mpegURL"   overrideNative="true">
-
-</video>
-
-<div class='container'>
-  <div class='thing'><span myAttri="http://223.110.243.148/PLTV/4/224/3221227525/index.m3u8">湖南卫视高清</span></div>
-   <div class='thing'><span myAttri="http://e1.vdowowza.vip.hk1.tvb.com/tvblive/smil:mobilehd_financeintl.smil/chunklist.m3u8">TVB财经台</span></div>
-    <div class='thing'><span myAttri="http://210.201.54.102/gtlive2/tc-tvbs/chunklist_w1101125571.m3u8">TVBS</span></div>
-     <div class='thing'><span myAttri="https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8">NHK World</span></div>
-      <div class='thing'><span myAttri="https://5b8ec3e62bc9e.streamlock.net:4044/cnewz/myStream//playlist.m3u8?">CNN</span></div>
-       <div class='thing'><span myAttri="https://abclive2-lh.akamaihd.net/i/abc_live11@423404/master.m3u8">ABC News</span></div>
-        <div class='thing'><span myAttri="https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8">Weather Channel</span></div>
-         <div class='thing'><span myAttri="http://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/master.m3u8">MSNBC</span></div>
-          <div class='thing'><span myAttri="http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8">中国气象频道</span></div>
-           <div class='thing'><span myAttri="http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8">凤凰卫视中文台</span></div>
-            <div class='thing'><span myAttri="http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8">凤凰卫视资讯台</span></div>
-             <div class='thing'><span myAttri="http://183.207.249.35/PLTV/3/224/3221226975/index.m3u8">凤凰卫视香港台</span></div>
-             <div class='thing'><span myAttri="http://wfc.bonus-tv.ru:80/cdn/wfcint/tracks-v2a1/index.m3u8">WFC</span></div>
-             <div class='thing'><span myAttri="http://token.tvb.com/stream/live/enews/hls/mobilehd_enews.smil">TVB娱乐新闻台</span></div>
-             <div class='thing'><span myAttri="http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8">奇妙电视</span></div>
-             <div class='thing'><span myAttri="http://223.110.243.148/PLTV/4/224/3221227490/index.m3u8">金鹰纪实高清</span></div>
-             <div class='thing'><span myAttri="http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8#EXTINF:-1,USA">DW</span></div>
-             <div class='thing'><span myAttri="http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8">DTV HD</span></div>
-              <div class='thing'><span myAttri="http://media4.tripsmarter.com:1935/LiveTV/BTVHD/chucklist.m3u8">BTV HD</span></div>
-               <div class='thing'><span myAttri="http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8">MTV HD</span></div>
-<div class='thing'><span myAttri="http://161.0.157.6/PLTV/88888888/224/3221227026/03.m3u8">HBO2</span></div>
-<div class='thing'><span myAttri="https://1686983180.rsc.cdn77.org/ls-54548-2-backup/index.m3u8">FOX news</span></div>
-  <div class='thing'><span myAttri="https://5656faf4c13b0.streamlock.net:443/hln/myStream//playlist.m3u8">HLN</span></div>
-  
-</div>
-
-</body>
-
+</script> 
+ </head> 
+ <body translate="no"> 
+  <h1 class="title">野猪看电视</h1> 
+  <p class="twitter"><a href="https://twitter.com/moonzju">moonzju@twitter</a></p> 
+  <video id="my-player" class="video-js vjs-default-skin" controls=""> 
+   <source src="" type="application/x-mpegURL" overridenative="true"></source> 
+  </video> 
+  <div class="container"> 
+   <div class="thing">
+    <span myattri="http://223.110.243.148/PLTV/4/224/3221227525/index.m3u8">湖南卫视高清</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://e1.vdowowza.vip.hk1.tvb.com/tvblive/smil:mobilehd_financeintl.smil/chunklist.m3u8">TVB财经台</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://210.201.54.102/gtlive2/tc-tvbs/chunklist_w1101125571.m3u8">TVBS</span>
+   </div> 
+   <div class="thing">
+    <span myattri="https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8">NHK World</span>
+   </div> 
+   <div class="thing">
+    <span myattri="https://5b8ec3e62bc9e.streamlock.net:4044/cnewz/myStream//playlist.m3u8?">CNN</span>
+   </div> 
+   <div class="thing">
+    <span myattri="https://abclive2-lh.akamaihd.net/i/abc_live11@423404/master.m3u8">ABC News</span>
+   </div> 
+   <div class="thing">
+    <span myattri="https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8">Weather Channel</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/master.m3u8">MSNBC</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8">中国气象频道</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8">凤凰卫视中文台</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8">凤凰卫视资讯台</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://183.207.249.35/PLTV/3/224/3221226975/index.m3u8">凤凰卫视香港台</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://wfc.bonus-tv.ru:80/cdn/wfcint/tracks-v2a1/index.m3u8">WFC</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://token.tvb.com/stream/live/enews/hls/mobilehd_enews.smil">TVB娱乐新闻台</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8">奇妙电视</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://223.110.243.148/PLTV/4/224/3221227490/index.m3u8">金鹰纪实高清</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8#EXTINF:-1,USA">DW</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8">DTV HD</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://media4.tripsmarter.com:1935/LiveTV/BTVHD/chucklist.m3u8">BTV HD</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8">MTV HD</span>
+   </div> 
+   <div class="thing">
+    <span myattri="http://161.0.157.6/PLTV/88888888/224/3221227026/03.m3u8">HBO2</span>
+   </div> 
+   <div class="thing">
+    <span myattri="https://1686983180.rsc.cdn77.org/ls-54548-2-backup/index.m3u8">FOX news</span>
+   </div> 
+   <div class="thing">
+    <span myattri="https://5656faf4c13b0.streamlock.net:443/hln/myStream//playlist.m3u8">HLN</span>
+   </div> 
+  </div>  
+ </body>
 </html>
-
