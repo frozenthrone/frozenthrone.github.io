@@ -1,11 +1,11 @@
 {
-
+	"id":"64350b50-a810-4901-b86b-7a5106bdef2c",
 	"title": "Jimmy's channels",
 
 	"channels": [
 
 		{
-			"name": "NHK",
+			"name":"nhk",
 			"url": "http://nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index_1180.m3u8"
 		},
 
