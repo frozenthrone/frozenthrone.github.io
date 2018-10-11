@@ -5,13 +5,35 @@
 	"channels": [
 
 		{
-			"name":"nhk",
-			"url": "http://nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index_1180.m3u8"
+			"name":"TVB财经台",
+			"url": "http://e1.vdowowza.vip.hk1.tvb.com/tvblive/smil:mobilehd_financeintl.smil/chunklist.m3u8"
 		},
 
 		{
-			"name": "Japan 24news",
-			"url": "https://n24-cdn-live.ntv.co.jp/ch01/High.m3u8"
+			"name": "香港31台",
+			"url": "http://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_2052_av-b.m3u8"
+		},
+		{
+			"name":"奇妙电视",
+			"url": "http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8"
+		},
+
+		{
+			"name": "TVB娱乐新闻台",
+			"url": "http://token.tvb.com/stream/live/enews/hls/mobilehd_enews.smil"
+		},
+		{
+			"name":"凤凰卫视中文台",
+			"url": "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8v"
+		},
+
+		{
+			"name": "凤凰卫视资讯台",
+			"url": "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8"
+		},
+		{
+			"name": "凤凰卫视香港台",
+			"url": "http://183.207.249.35/PLTV/3/224/3221226975/index.m3u"
 		}
 
 	]
