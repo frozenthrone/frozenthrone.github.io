@@ -5,13 +5,26 @@
 	"channels": [
 
 		{
-			"name":"nhk",
-			"url": "http://nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index_1180.m3u8"
+			"name":"CBS News",
+			"url": "https://www.cbsnews.com/common/video/dai_prod.m3u8"
 		},
 
 		{
-			"name": "Japan 24news",
-			"url": "https://n24-cdn-live.ntv.co.jp/ch01/High.m3u8"
+			"name": "ABC News",
+			"url": "https://abclive2-lh.akamaihd.net/i/abc_live11@423404/master.m3u8"
+		},
+		{
+			"name":"Weather Channel",
+			"url": "https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8"
+		},
+
+		{
+			"name": "WFC",
+			"url": "http://wfc.bonus-tv.ru:80/cdn/wfcint/tracks-v2a1/index.m3u8"
+		},
+		{
+			"name": "sky news",
+			"url": "http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8"
 		}
 
 	]
