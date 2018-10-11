@@ -5,14 +5,44 @@
 	"channels": [
 
 		{
-			"name":"nhk",
-			"url": "http://nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index_1180.m3u8"
+			"name":"cctv5",
+			"url": "http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225803/index.m3u8"
 		},
 
 		{
-			"name": "Japan 24news",
-			"url": "https://n24-cdn-live.ntv.co.jp/ch01/High.m3u8"
+			"name": "cctv5+",
+			"url": "http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225821/index.m3u8"
+		},
+		{
+			"name":"cctv9",
+			"url": "http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225820/index.m3u8"
+		},
+
+		{
+			"name": "cctv10",
+			"url": "http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225814/index.m3u8"
+		},
+		{
+			"name":"湖南卫视",
+			"url": "http://223.110.243.148/PLTV/4/224/3221227525/index.m3u8"
+		},
+
+		{
+			"name": "江苏卫视",
+			"url": "http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225847/index.m3u8"
+		},
+		{
+			"name":"东方卫视",
+			"url": "http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225828/index.m3u8"
+		},
+
+		{
+			"name": "金鹰纪实",
+			"url": "http://223.110.243.148/PLTV/4/224/3221227490/index.m3u8"
 		}
+		
+		
+		
 
 	]
 
