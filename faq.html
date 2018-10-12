@@ -7,8 +7,62 @@
 </head>
 <body>
 <div id="wrap">
-uuid
-64350b50-a810-4901-b86b-7a5106bdef2c
+  <h1>ENGLISH</h1>
+  <h2>Q:what video format does this app support</h2> 
+  <p>A: this app is designed to play m3u8 file, but also supporting other format like mp4 ,etc.</p>
+  <h2>Q:that is the subscription file format</h2>
+  <p>A: here is a sample json file </p>
+  <code> 
+  {
+	"uuid":"64350b50-a810-4901-b86b-7a5106bdef2c",
+	"title": "you subscription file name",
+	"channels": [
+		{
+			"name":"test link1",
+			"url": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8"
+	
+		{
+			"name": "test link2",
+			"url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+		}
+	]
+}
+  </code>
+  <p>the file contains three part, uuid,title and channels</p>
+  <ul>
+  <li>uuid: don't change it</li>
+  <li>title: change it to your own name</li>
+  <li>channels: your channels list here</li>
+  </ul>
+  
+    <h1>CHINESE</h1>
+  <h2>问:支持什么样的视频格式</h2> 
+  <p>答: 本播放器主要用来播放m3u8，当然也支持其他格式，如mp4等</p>
+  <h2>问:订阅文件的格式是什么</h2>
+  <p>答: 这里有个示例的json文件 </p>
+  <code> 
+  {
+	"uuid":"64350b50-a810-4901-b86b-7a5106bdef2c",
+	"title": "你对的频道名字",
+	"channels": [
+		{
+			"name":"频道1",
+			"url": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8"
+	
+		{
+			"name": "频道2",
+			"url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+		}
+	]
+}
+  </code>
+  <p>分成3个部分, uuid, title和 channels</p>
+  <ul>
+  <li>uuid: 不要做任何改动</li>
+  <li>title: 可以自定义</li>
+  <li>channels: 你所有的频道列表</li>
+  </ul>
+  
 
 </div>
 
