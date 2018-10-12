@@ -13,26 +13,8 @@
 			"name": "Japan 24news",
 			"url": "https://n24-cdn-live.ntv.co.jp/ch01/High.m3u8"
 		},
-		{
-			"name": "韩国KBS1",
-			"url": "http://198.144.156.93:9083/live/CA42-live1/4U/m7/4Um7jSUcj5yAeervICdrrA==/live.m3u8"
-		},
-		{
-			"name": "韩国SBS SPORTS",
-			"url": "http://198.144.156.93:9083/live/CA42-live1/N5/Zi/N5ZiPBK3M6JnskdXwIWTXw==/live.m3u8"
-		},
-		{
-			"name": "韩国tvN",
-			"url": "http://198.144.156.93:9083/live/CA42-live1/Rf/DM/RfDMODnZ-dV2NYqGXlMsRQ==/live.m3u8"
-		},
-		{
-			"name": "韩国ocN",
-			"url": "http://198.144.156.93:9083/live/CA42-live1/_K/D2/_KD2CBjorpv-WJINk2GPqg==/live.m3u8"
-		},
-		{
-			"name": "韩国Mnet",
-			"url": "http://198.144.156.93:9083/live/CA42-live1/Vp/Ob/VpObAKeinniCi6LuFRmkLA==/live.m3u8"
-		},
+		
+		
 		{
 			"name": "韩国arirang",
 			"url": "http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8"
