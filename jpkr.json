@@ -1,6 +1,6 @@
 {
 	"uuid":"64350b50-a810-4901-b86b-7a5106bdef2c",
-	"title": "推荐频道-日韩",
+	"title": "推荐频道-亚洲",
 
 	"channels": [
 
@@ -22,6 +22,10 @@
 		{
 			"name": "韩国MBC",
 			"url": "http://www.pickcom.co.kr:1935/sjp/live07/chunklist_w2107750490.m3u8"
+		},
+		{
+			"name": "阿聯酋UAE SPORTS HD",
+			"url": "http://dmiftvll.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b2000000.m3u8"
 		}
 		
 
