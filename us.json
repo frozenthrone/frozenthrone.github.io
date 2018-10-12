@@ -3,9 +3,12 @@
 	"title": "推荐频道-欧美",
 
 	"channels": [
-
 		{
-			"name":"CBS News",
+			"name":"CBS News 1",
+			"url": "http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8"
+		},
+		{
+			"name":"CBS News 2",
 			"url": "https://www.cbsnews.com/common/video/dai_prod.m3u8"
 		},
 
@@ -13,6 +16,7 @@
 			"name": "ABC News",
 			"url": "https://abclive2-lh.akamaihd.net/i/abc_live11@423404/master.m3u8"
 		},
+		
 		{
 			"name":"Weather Channel",
 			"url": "https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8"
@@ -25,6 +29,14 @@
 		{
 			"name": "sky news",
 			"url": "http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8"
+		},
+		{
+			"name": "半岛电视台",
+			"url": "http://aljazeera-eng-hd-live.hls.adaptive.level3.net/aljazeera/english2/index.m3u8"
+		},
+		{
+			"name": "土耳其TRT WORLD",
+			"url": "http://trtcanlitv-lh.akamaihd.net/i/TRTWORLD_1@321783/master.m3u8"
 		},
 		{
 			"name": "BBC One需英国梯子,下同",
