@@ -31,6 +31,10 @@
 			"url": "http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8"
 		},
 		{
+			"name": "Bloomberg TV Europe",
+			"url": "http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8"
+		},
+		{
 			"name": "半岛电视台",
 			"url": "http://aljazeera-eng-hd-live.hls.adaptive.level3.net/aljazeera/english2/index.m3u8"
 		},
