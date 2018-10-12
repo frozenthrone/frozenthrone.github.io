@@ -52,7 +52,7 @@
 },
 {
 			"name"  : "BBC Two Scotland"
-			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_scotland.m3u8"
+			"url" : "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_scotland.m3u8"
 },
 {
 			"name": "BBC Two HD",
