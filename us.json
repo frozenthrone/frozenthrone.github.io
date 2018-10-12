@@ -25,7 +25,72 @@
 		{
 			"name": "sky news",
 			"url": "http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8"
-		}
+		},
+		{
+			"name": "BBC One需英国梯子,下同",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_one_hd.m3u8"
+},
+{
+			"name": "BBC One London",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_london.m3u8"
+},
+{
+			"name": "BBC One Northern Ireland HD",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_one_northern_ireland_hd.m3u8"
+},
+{
+			"name": "BBC One Scotland HD",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_one_scotland_hd.m3u8"
+},
+{
+			"name": "BBC Two Wales",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_wales_digital.m3u8"
+},
+{
+			"name": "BBC Two  Northen Ireland",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_northern_ireland_digital.m3u8"
+},
+{
+			"name": "BBC Two Scotland"
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_scotland.m3u8"
+},
+{
+			"name": "BBC Two HD",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_two_england.m3u8"
+},
+{
+			"name": "BBC Four HD",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_four.m3u8"
+},
+{
+			"name": "CBBC HD",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/cbbc.m3u8"
+},
+{
+			"name": "CBeebies HD",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/cbeebies.m3u8"
+},
+{
+			"name": "BBC News HD",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_news24.m3u8"
+},
+{
+			"name": "BBC One North West",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_north_west.m3u8"
+},
+{
+			"name": "BBC One North East",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_north_east.m3u8"
+},
+{
+			"name": "BBC One South West",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_south_west.m3u8"
+},
+{
+			"name": "BBC One East",
+			"url": "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_east.m3u8"
+
+}
 
 	]
 
