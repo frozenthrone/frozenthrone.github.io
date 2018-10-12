@@ -35,6 +35,18 @@
 			"url": "http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8"
 		},
 		{
+			"name": "布鲁内尔音乐台",
+			"url": "http://37.48.83.34:80/radiobrunotv/radiobrunotv/playlist.m3u8"
+		},
+		{
+			"name": "意大利音乐台",
+			"url": "http://radioitaliatv-lh.akamaihd.net/i/radioitaliatv_1@329645/index_720x480_av-p.m3u8"
+		},
+		{
+			"name": "维珍音乐摇滚台",
+			"url": "http://37.48.83.34:80/radiobrunotv/radiobrunotv/playlist.m3u8"
+		},
+		{
 			"name": "半岛电视台",
 			"url": "http://aljazeera-eng-hd-live.hls.adaptive.level3.net/aljazeera/english2/index.m3u8"
 		},
