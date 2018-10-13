@@ -5,9 +5,14 @@
 	"channels": [
 
 		{
-			"name":"TVB翡翠台",
+			"name":"TVB翡翠台SD",
 			"url": "http://m.567it.com/jade.m3u8"
 		},
+		{
+			"name":"TVB翡翠台HD",
+			"url": "http://123.207.42.38/tvb.php?type=jade"
+		},
+		
 		{
 			"name":"TVB财经台",
 			"url": "http://e1.vdowowza.vip.hk1.tvb.com/tvblive/smil:mobilehd_financeintl.smil/chunklist.m3u8"
