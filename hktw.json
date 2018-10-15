@@ -5,12 +5,8 @@
 	"channels": [
 
 		{
-			"name":"TVB翡翠台SD",
-			"url": "http://m.567it.com/jade.m3u8"
-		},
-		{
 			"name":"TVB翡翠台HD",
-			"url": "http://123.207.42.38/tvb.php?type=jade"
+			"url": "http://pullhls6.inke.cn/live/1539563677248699/playlist.m3u8"
 		},
 		
 		{
@@ -100,6 +96,14 @@
 			"name":"台湾80",
 			"url": "http://61.58.60.230:9000/live/80.m3u8"
 		},
+				{
+			"name":"中天新闻",
+			"url": "http://60.199.188.61/HLS/WG_ETTV-N/index.m3u8"
+		},
+				{
+			"name":"非凡新闻",
+			"url": "http://60.199.188.61/HLS/WG_USTV-N/index.m3u8"
+		},
 		
 		
 		{
@@ -113,8 +117,8 @@
 			"url": "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8"
 		},
 		{
-			"name": "凤凰卫视香港台",
-			"url": "http://183.207.249.35/PLTV/3/224/3221226975/index.m3u"
+			"name": "凤凰卫视",
+			"url": "http://223.82.250.72/live/fhchinese/1.m3u8"
 		},
 		{
 			"name": "新加坡MUTV",
