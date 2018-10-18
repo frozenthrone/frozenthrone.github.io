@@ -4,18 +4,11 @@
 
 	"channels": [
 		
-		{
-			"name":"HBO2",
-			"url": "http://120.198.235.68/161.0.157.5/PLTV/88888888/224/3221227026/01.m3u8"
-		},
-		{
-			"name":"FOX Crime ENG",
-			"url": "http://cdn2.bear-tv.com/freetv/TOT_Fox_claim_ENG/playlist.m3u8"
-		},
+
 		
 		{
-			"name":"CNN",
-			"url": "http://unlimited1-us.dps.live/cnn/cnn.smil/playlist.m3u8"
+			"name":"加拿大体育台",
+			"url": "http://di.ancrb.club/28/chunks.m3u8"
 		},
 		{
 			"name":"CBS News 1",
