@@ -11,6 +11,10 @@
 			"url": "http://di.ancrb.club/28/chunks.m3u8"
 		},
 		{
+			"name":"彭博澳洲",
+			"url": "https://bblive-liveprodapnortheast.hs.llnwd.net/oz1/Channel-OZTVqvs-AWS-tokyo-1/Source-OZTVqvs-1000-1_live.m3u8"
+		},
+		{
 			"name":"CBS News 1",
 			"url": "http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8"
 		},
