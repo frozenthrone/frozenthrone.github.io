@@ -4,10 +4,7 @@
 
 	"channels": [
 
-		{
-			"name":"TVB翡翠台HD",
-			"url": "http://123.207.42.38/tvb.php?type=jade"
-		},
+		
 		{
 			"name":"TVB J2",
 			"url": "http://pulllive-al.wasu.cn/live/ch7080058.m3u8"
