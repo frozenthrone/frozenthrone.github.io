@@ -32,6 +32,12 @@
 			"name":"Weather Channel",
 			"url": "https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8"
 		},
+		{
+			"name":"msnbc",
+			"url": "http://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/master.m3u8"
+		},
+		
+
 
 		{
 			"name": "WFC",
