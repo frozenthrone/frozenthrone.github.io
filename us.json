@@ -3,6 +3,10 @@
 	"title": "推荐频道-欧美",
 
 	"channels": [
+		{
+			"name":"nasa",
+			"url": "http://iphone-streaming.ustream.tv/uhls/6540154/streams/live/iphone/playlist.m3u8"
+		},
 		
 
 		
