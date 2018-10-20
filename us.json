@@ -42,7 +42,27 @@
 			"url": "http://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/master.m3u8"
 		},
 		
-
+		{
+			"name":"Astro Arena HD",
+			"url": "http://playbackn5.aotg-video.astro.com.my/CH1/master_ARENA_8_05.m3u8"
+		},
+		{
+			"name":"CGTN 1",
+			"url": "https://livees.cgtn.com/1000e/prog_index.m3u8?xtreamiptv.m3u8"
+		},
+				{
+			"name":"CGTN 2",
+			"url": "http://live.cgtn.com/cctv-e.m3u8?xtreamiptv.m3u8"
+		},
+				{
+			"name":"Mega HD",
+			"url": "https://mdstrm.com/live-stream-playlist/53d2c1a32640614e62a0e000.m3u8?xtreamiptv.m3u8"
+		},
+				{
+			"name":"FTV",
+			"url": "http://fash1043.cloudycdn.services/slive/_definst_/ftv_paris_adaptive.smil/chunklist.m3u8"
+		},
+	
 
 		{
 			"name": "WFC",
