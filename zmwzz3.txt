@@ -1,7 +1,7 @@
 name=zmwzz|巨乳
 type=lanscape
-url1=https://zmwzz.com/pchtml/video/index/cid/14/
-url2_pre=https://zmwzz.com/pchtml/video/index/cid/14/p/
+url1=https://zmwzz.com/pchtml/video/index/cid/3/
+url2_pre=https://zmwzz.com/pchtml/video/index/cid/3/p/
 url2_suffix=none
 divcontent=div.detail_right_div
 divitems=li
