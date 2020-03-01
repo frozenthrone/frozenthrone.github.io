@@ -1,5 +1,5 @@
 name=zmwzz|乱伦
-type=lanscape
+type=landscape
 url1=https://zmwzz.com/pchtml/video/index/cid/4/
 url2_pre=https://zmwzz.com/pchtml/video/index/cid/4/p/
 url2_suffix=none
