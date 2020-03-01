@@ -1,5 +1,5 @@
 name=zmwzz|rape
-type=lanscape
+type=landscape
 url1=https://zmwzz.com/pchtml/video/index/cid/2/
 url2_pre=https://zmwzz.com/pchtml/video/index/cid/2/p/
 url2_suffix=none
