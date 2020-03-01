@@ -1,5 +1,5 @@
 name=zmwzz|出轨
-type=lanscape
+type=landscape
 url1=https://zmwzz.com/pchtml/video/index/cid/10/
 url2_pre=https://zmwzz.com/pchtml/video/index/cid/10/p/
 url2_suffix=none
