@@ -1,5 +1,5 @@
 name=zmwzz|调教
-type=lanscape
+type=landscape
 url1=https://zmwzz.com/pchtml/video/index/cid/9/
 url2_pre=https://zmwzz.com/pchtml/video/index/cid/9/p/
 url2_suffix=none
