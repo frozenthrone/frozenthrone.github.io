@@ -1,5 +1,5 @@
 name=zmwzz|制服
-type=lanscape
+type=landscape
 url1=https://zmwzz.com/pchtml/video/index/cid/5/
 url2_pre=https://zmwzz.com/pchtml/video/index/cid/5/p/
 url2_suffix=none
