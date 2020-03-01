@@ -1,5 +1,5 @@
 name=zmwzz|短视频
-type=lanscape
+type=landscape
 url1=https://zmwzz.com/pchtml/video/index/cid/11/
 url2_pre=https://zmwzz.com/pchtml/video/index/cid/11/p/
 url2_suffix=none
