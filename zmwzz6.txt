@@ -1,5 +1,5 @@
 name=zmwzz|人妻
-type=lanscape
+type=landscape
 url1=https://zmwzz.com/pchtml/video/index/cid/8/
 url2_pre=https://zmwzz.com/pchtml/video/index/cid/8/p/
 url2_suffix=none
