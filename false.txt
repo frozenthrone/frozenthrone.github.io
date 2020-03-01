@@ -1,4 +1,4 @@
-name=zmwzz|无码
+name=test
 type=lanscape
 url1=https://zmwzz.com/pchtml/video/index/cid/14/
 url2_pre=https://zmwzz.com/pchtml/video/index/cid/14/p/
