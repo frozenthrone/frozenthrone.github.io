@@ -1,1 +1,16 @@
-
+name=av8m|最新更新
+type=landscape
+url1=http://av8m.com/index.php/vod/search/by/time_add.html
+url2_pre=http://av8m.com/index.php/vod/search/by/time_add/page/
+url2_suffix=.html
+divcontent=div.video-block
+divitems=.video-card
+titleElement=.video-title
+titleElementAttr=none
+logoElement=img
+logoElementAttr=data-original
+urlElement=.video-title a
+urlElementAttr=href
+logo_pre=none
+url_pre=http://av8m.com
+realurl_regex="url":"(http[^"]+)
