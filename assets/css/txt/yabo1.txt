@@ -1,0 +1,16 @@
+name=yabo|最新
+type=portrait
+url1=https://www.yabovod4.com/list/new/
+url2_pre=https://www.yabovod4.com/list/new/
+url2_suffix=none
+divcontent=.layui-row
+divitems=a.group-item
+titleElement=p
+titleElementAttr=none
+logoElement=img
+logoElementAttr=data-src
+urlElement=a
+urlElementAttr=href
+logo_pre=none
+url_pre=https://www.yabovod4.com
+realurl_regex=playUrl\s*=\s*'([^']+)
