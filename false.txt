@@ -5,12 +5,12 @@ url2_pre=https://zmwzz.com/pchtml/video/index/cid/14/p/
 url2_suffix=none
 divcontent=div.detail_right_div
 divitems=.cs
-titleElement=img
+titleElement=aimg
 titleElementAttr=title
-logoElement=img
-logoElementAttr=data-original
+logoElement=aimg
+logoElementAttr=adata-original
 urlElement=a
-urlElementAttr=href
+urlElementAttr=ahref
 logo_pre=none
 url_pre=https://zmwzz.com
 realurl_regex=var\s*url\s*=\s*'([^']+)
