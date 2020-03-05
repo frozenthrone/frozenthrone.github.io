@@ -1,5 +1,5 @@
 display_name=91美剧网
-type=portrait
+type=landscape
 cat=episode
 page1_url=https://91mjw.com/category/all_mj
 page2_url_pre=https://91mjw.com/category/all_mj/page/
