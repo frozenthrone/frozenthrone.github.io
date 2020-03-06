@@ -1,6 +1,7 @@
 display_name=mustjav|自拍
 type=landscape
 cat=av
+page_number=94
 page1_url=https://mustjav.com/index.php/vod/type/id/24.html
 page2_url_pre=https://mustjav.com/index.php/vod/type/id/24/page/
 page2_url_suffix=.html
