@@ -1,6 +1,7 @@
 display_name=iwant|最新
 type=landscape
 cat=av
+page_number=309
 page1_url=https://iwant-sex.com/videos/?sortby=newest
 page2_url_pre=https://iwant-sex.com/videos/?sortby=newest&page=
 page2_url_suffix=none
