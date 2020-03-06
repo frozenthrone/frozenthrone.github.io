@@ -1,6 +1,7 @@
 display_name=mustjav|欧美
 type=landscape
 cat=av
+page_number=14
 page1_url=https://mustjav.com/index.php/vod/type/id/25.html
 page2_url_pre=https://mustjav.com/index.php/vod/type/id/25/page/
 page2_url_suffix=.html
