@@ -1,6 +1,7 @@
 display_name=av8m|最多观看
 type=landscape
 cat=av
+page_number=3000
 page1_url=http://av8m.com/index.php/vod/search/by/hits.html
 page2_url_pre=http://av8m.com/index.php/vod/search/by/hits/page/
 page2_url_suffix=.html
