@@ -1,6 +1,7 @@
 display_name=yabo4|最新
 type=portrait
 cat=av
+page_number=1177
 page1_url=https://www.yabovod4.com/list/new/
 page2_url_pre=https://www.yabovod4.com/list/new/
 page2_url_suffix=none
