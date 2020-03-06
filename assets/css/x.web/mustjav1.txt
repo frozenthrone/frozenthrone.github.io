@@ -1,6 +1,7 @@
 display_name=mustjav|有码
 type=landscape
 cat=av
+page_number=112
 page1_url=https://mustjav.com/index.php/vod/type/id/22.html
 page2_url_pre=https://mustjav.com/index.php/vod/type/id/22/page/
 page2_url_suffix=.html
