@@ -1,6 +1,7 @@
 display_name=zmwzz|短视频
 type=landscape
 cat=av
+page_number=83
 page1_url=https://zmwzz.com/pchtml/video/index/cid/11/
 page2_url_pre=https://zmwzz.com/pchtml/video/index/cid/11/p/
 page2_url_suffix=none
