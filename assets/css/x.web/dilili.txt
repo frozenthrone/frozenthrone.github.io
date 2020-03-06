@@ -1,6 +1,7 @@
 display_name=dilili
 type=portrait
 cat=episode
+page_number=100
 page1_url=http://www.dililitv.com/film
 page2_url_pre=http://www.dililitv.com/film/page/
 page2_url_suffix=none
