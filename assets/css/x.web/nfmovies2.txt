@@ -1,0 +1,27 @@
+display_name=奈飞影视|电视剧
+type=portrait
+cat=episode
+page_number=243
+page1_url=https://www.nfmovies.com/list/?2.html
+page2_url_pre=https://www.nfmovies.com/list/?2-
+page2_url_suffix=.html
+first_container_select=.container .row .myui-panel-box .myui-vodlist
+first_items_select=li
+title_select=h4
+title_select_attr=none
+logo_select=a
+logo_select_attr=data-original
+first_url_select=a
+first_url_select_attr=href
+logo_pre=https://www.nfmovies.com
+first_url_pre=https://www.nfmovies.com
+realurl_regex=now=unescape\("([^"]+)
+second_flag=yes
+second_container_select=.myui-panel-box .myui-panel_bd
+second_items_select=ul
+second_title_select=li a
+second_title_select_attr=title
+second_url_select=li a
+second_url_select_attr=href
+second_url_pre=https://www.nfmovies.com
+second_url_suffix=none
