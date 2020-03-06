@@ -1,6 +1,7 @@
 display_name=zmwzz|制服
 type=landscape
 cat=av
+page_number=150
 page1_url=https://zmwzz.com/pchtml/video/index/cid/5/
 page2_url_pre=https://zmwzz.com/pchtml/video/index/cid/5/p/
 page2_url_suffix=none
