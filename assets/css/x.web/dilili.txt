@@ -25,5 +25,4 @@ second_url_select=none
 second_url_select_attr=id
 second_url_pre=https://www.dililitv.com/vplay/
 second_url_suffix=.html
-second_head_select=.tbad_760_90 h4.ctitle
-second_head_select_attr=none
+
