@@ -1,0 +1,26 @@
+display_name=javbangers|最新更新
+type=landscape
+cat=av
+page_number=2000
+page1_url=https://www.javbangers.com/latest-updates/1/
+page2_url_pre=https://www.javbangers.com/latest-updates/
+page2_url_suffix=/
+first_container_select=div.video-list
+first_items_select=.video-item
+title_select=a
+title_select_attr=title
+logo_select=a img
+logo_select_attr=data-original
+first_url_select=a
+first_url_select_attr=href
+logo_pre=none
+first_url_pre=none
+realurl_regex=rel="preload"\s*href="([^"]+)
+second_flag=none
+second_container_select=none
+second_items_select=none
+second_title_select=none
+second_title_select_attr=none
+second_url_select=none
+second_url_select_attr=none
+second_url_pre=none
