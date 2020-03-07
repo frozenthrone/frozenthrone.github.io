@@ -1,0 +1,26 @@
+display_name=yabo2|最新更新
+type=landscape
+cat=av
+page_number=224
+page1_url=https://www.yabovod2.com/index.php/label/new/page/1.html
+page2_url_pre=https://www.yabovod2.com/index.php/label/new/page/
+page2_url_suffix=.html
+first_container_select=section.pb-3
+first_items_select=div.col-6
+title_select=h6.title
+title_select_attr=none
+logo_select=a img
+logo_select_attr=data-src
+first_url_select=.img-box a
+first_url_select_attr=href
+logo_pre=none
+first_url_pre=https://www.yabovod2.com
+realurl_regex=hlsUrl\s*=\s*'([^']+)
+second_flag=none
+second_container_select=none
+second_items_select=none
+second_title_select=none
+second_title_select_attr=none
+second_url_select=none
+second_url_select_attr=none
+second_url_pre=none
