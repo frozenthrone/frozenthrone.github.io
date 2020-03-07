@@ -1,7 +1,7 @@
 display_name=poku|电影
 type=portrait
 cat=episode
-page_number=100
+page_number=748
 page1_url=https://poku.tv/vodshow/movies--time------1---.html
 page2_url_pre=https://poku.tv/vodshow/movies--time------
 page2_url_suffix=---.html
