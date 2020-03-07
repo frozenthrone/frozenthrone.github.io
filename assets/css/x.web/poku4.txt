@@ -1,4 +1,4 @@
-display_name=poku|电视剧最热门
+display_name=poku|电影最热门
 type=portrait
 cat=episode
 page_number=748
