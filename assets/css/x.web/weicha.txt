@@ -15,7 +15,7 @@ first_url_select=h3 a
 first_url_select_attr=href
 logo_pre=none
 first_url_pre=none
-realurl_regex=fvplayer src='([^']+)
+realurl_regex=quot;(http[^&]+)
 second_flag=none
 second_container_select=none
 second_items_select=none
