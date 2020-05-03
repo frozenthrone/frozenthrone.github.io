@@ -5,7 +5,7 @@ page_number=414
 page1_url=https://nyg520.com
 page2_url_pre=https://nyg520.com/?page=
 page2_url_suffix=none
-first_container_select=.video .flex-row .content
+first_container_select=.videos .flex-row .content
 first_items_select=.grid_item
 title_select=.description
 title_select_attr=none
